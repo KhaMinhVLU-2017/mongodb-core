@@ -31,6 +31,7 @@ module.exports = {
   ReadPreference: require('./lib/topologies/read_preference'),
   Sessions: require('./lib/sessions'),
   BSON: BSON,
+  Topology: require('./lib/sdam/topology'),
   // Raw operations
   Query: require('./lib/connection/commands').Query,
   // Auth mechanisms
